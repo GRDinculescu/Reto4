@@ -37,12 +37,12 @@ public class funciones {
 			while(true);
 				
 		}
-		public static double dime(String texto,Scanner sc) {
+		public static int dime(String texto,Scanner sc) {
 			do {
 			try {
 				System.out.println(texto);
 				String a = sc.nextLine();
-				double numdoble = Double.parseDouble(a);
+				int numdoble = Integer.ParseInt(a);
 				return numdoble;
 			}
 			
