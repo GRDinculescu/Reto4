@@ -37,7 +37,7 @@ public class funciones {
 			while(true);
 				
 		}
-		public static double dimeDouble(String texto,Scanner sc) {
+		public static double dime(String texto,Scanner sc) {
 			do {
 			try {
 				System.out.println(texto);
@@ -61,10 +61,10 @@ public class funciones {
 				int dia=funciones.dimeEntero("Introduce un dia del 1 al 31 ",sc);
 				//System.out.println("Introduce un mes del 1 al 12 ");
 				int mes =dimeEntero("Introduce un mes del 1 al 12 ",sc);
-				//System.out.println("Introduce un año ej 2024 ");
-				int año =dimeEntero("Introduce un año ej 2024 ",sc);
+				//System.out.println("Introduce un aï¿½o ej 2024 ");
+				int aï¿½o =dimeEntero("Introduce un aï¿½o ej 2024 ",sc);
 				
-				LocalDate fecha = LocalDate.of(año,mes,dia);
+				LocalDate fecha = LocalDate.of(aï¿½o,mes,dia);
 				return fecha;
 
 
